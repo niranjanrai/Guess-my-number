@@ -9,7 +9,7 @@ const guessBtn = (document.querySelector('.guess').value = 30);
 const x = function () {
   console.log(23);
 };
-// document.querySelector('.check').addEventListener('click', function () {
-//   console.log(document.querySelector('.guess').value);
-//   // document.querySelector('.message').textContent = '🎉 correct number';
-// });
+document.querySelector('.check').addEventListener('click', function () {
+  console.log(document.querySelector('.guess').value);
+  // document.querySelector('.message').textContent = '🎉 correct number';
+});
