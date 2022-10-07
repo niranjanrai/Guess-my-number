@@ -11,5 +11,5 @@ const x = function () {
 };
 document.querySelector('.check').addEventListener('click', function () {
   console.log(document.querySelector('.guess').value);
-  // document.querySelector('.message').textContent = '🎉 correct number';
+  document.querySelector('.message').textContent = '🎉 correct number';
 });
