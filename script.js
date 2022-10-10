@@ -10,6 +10,7 @@ const x = function () {
   console.log(23);
 };
 document.querySelector('.check').addEventListener('click', function () {
-  console.log(document.querySelector('.guess').value);
+  const guess = Number(document.querySelector('.guess').value);
+  console.log(typeof guess, guess);
   document.querySelector('.message').textContent = '🎉 correct number';
 });
